@@ -74,6 +74,7 @@ h1{
 
 footer {
     font-family: 'Fira Sans Condensed', sans-serif;
+	text-align: center;
 }
 
 address {
@@ -165,7 +166,7 @@ address {
 
 @media screen and (min-width:720px){
 	body {
-	background-color: lightskyblue;
+	background-color: lightgreen;
 }
 
 	}
