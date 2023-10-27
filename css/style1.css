@@ -1,5 +1,5 @@
 nav {
-	background-color: lightgray;
+	background-color: #F1B9AC;
 	max-width: 800px;
 	margin: auto;
 	font-size: 1.5em;
@@ -14,7 +14,7 @@ nav ul {
 }
 
 nav ul li {
-	background-color: lightgray;
+	background-color: light;
 	flex-flow: row wrap;
 	align-items: stretch;
 	list-style-type: none;
@@ -25,26 +25,59 @@ nav ul li {
 }
 
 nav ul li a {
-	color: midnightblue;
+	color: red;
 }
 
 nav ul li a:visited {
-	color: mediumorchid;
+	color: black;
 }
 
 nav ul li a:hover {
-	color: crimson;
+	color: green;
 }
+
+.location-holder{
+	width: 100%;
+	margin: 4rem 0;
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+	box-sizing: border-box;
+  }
+
+.text-holder {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+  }
+
+  main {
+	width: 90%;
+	max-width: 1000px;
+	background: whitesmoke;
+	border-radius: 1rem;
+	padding: 1rem 2rem;
+	box-sizing: border-box;
+	margin: 1rem auto;
+  }
 
 p {
-	font-family:'Prompt', sans-serif;
+	font-family:'Fira Sans Condensed', sans-serif;
 }
 
-.h1{
-    font-family: 'Prompt', sans-serif;
+h1{
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
+
 footer {
-    font-family: 'Autour One', serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+address {
+	font-family: 'Young Serif', serif;
 }
 
 .listing {
@@ -54,7 +87,7 @@ footer {
 
 .list-item {
 	display: flex;
-	border: 5px dashed rebeccapurple;
+	border: 5px dashed red;
 }
 
 .list-item h2 {
@@ -92,7 +125,7 @@ footer {
     	bottom: 0;
     	right: 0;
     	z-index: 3;
-    	color: lightgray;
+    	color: lightcoral;
 	    font-family: 'Prompt', sans-serif;
     	font-size: 0.8rem;
     	padding: 1rem;
@@ -125,14 +158,14 @@ footer {
 
 @media screen and (min-width:480px){
 	body {
-		background-color: orange;
+		background-color: lightpink;
 }
 	}
 
 
 @media screen and (min-width:720px){
 	body {
-	background-color: orange;
+	background-color: lightskyblue;
 }
 
 	}
