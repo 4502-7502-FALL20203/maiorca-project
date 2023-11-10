@@ -3,6 +3,8 @@ nav {
 	max-width: 800px;
 	margin: auto;
 	font-size: 1.5em;
+	text-transform: uppercase;
+
 }
 
 nav ul {
@@ -26,6 +28,7 @@ nav ul li {
 
 nav ul li a {
 	color: red;
+	font-family: 'Libre Baskerville', serif;
 }
 
 nav ul li a:visited {
@@ -54,6 +57,10 @@ nav ul li a:hover {
 	box-sizing: border-box;
   }
 
+  body {
+	overflow: scroll;
+  }
+
   main {
 	width: 90%;
 	max-width: 1000px;
@@ -75,6 +82,75 @@ h1{
 footer {
     font-family: 'Fira Sans Condensed', sans-serif;
 	text-align: center;
+}
+
+.gallery-example {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.gallery-image { 
+	}
+
+
+.button_holder {
+	display: flex;
+	flex-direction: row;
+}
+
+button_next {  }
+button_previous {  }
+
+.stepper {  }
+
+button {
+	background-color: orange;
+	margin: 1rem;
+	padding: 1rem;
+	min-width: 10rem;
+	font-size: 1.2rem;
+	border-radius: 0.5rem;
+}
+
+.button-start {
+/*	background-color: forestgreen;*/
+}
+
+.gallery-image {
+	max-width: 80%;
+
+}
+
+.gallery-image img {
+	width: 100%;
+}
+
+.hideThis {
+	display: none;
+}
+
+example-image {
+	display: flex;
+	flex-direction: column;
+	margin: 3rem;
+
+}
+
+.example-image img {
+	display: flex;
+  	max-width:230px;
+  	max-height:95px;
+ 	width: auto;
+  	height: auto;
+  	margin: 1rem;
+}
+
+.listings2 {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 address {
@@ -167,6 +243,17 @@ address {
 @media screen and (min-width:720px){
 	body {
 	background-color: lightgreen;
+}
+
+	.example-image {
+	
+	flex-direction: row !important;
+	margin: 3rem;
+
+}
+	.example-image img {
+	background-color: crimson;
+	padding: 3rem;
 }
 
 	}
